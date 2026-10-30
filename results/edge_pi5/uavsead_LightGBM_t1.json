@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "uavsead",
+ "results": [
+  {
+   "method": "LightGBM",
+   "threads": 1,
+   "median_ms": 0.6448869971791282,
+   "p95_ms": 0.6642480366281234,
+   "mean_ms": 0.6492687550053233,
+   "max_rss_mb": 121.3125,
+   "file_kb": 220.8,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "65550",
+ "temp_end": "67750",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

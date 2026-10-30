@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "uavsead",
+ "results": [
+  {
+   "method": "ExtraTrees",
+   "threads": 1,
+   "median_ms": 7.433607985149138,
+   "p95_ms": 7.71547325712163,
+   "mean_ms": 7.499632855469827,
+   "max_rss_mb": 683.015625,
+   "file_kb": 284621.1,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "63900",
+ "temp_end": "66650",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

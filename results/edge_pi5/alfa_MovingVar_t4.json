@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "alfa",
+ "results": [
+  {
+   "method": "MovingVar",
+   "threads": 4,
+   "median_ms": 0.048668007366359234,
+   "p95_ms": 0.04935299511998892,
+   "mean_ms": 0.04893055045977235,
+   "max_rss_mb": 29.125,
+   "file_kb": 1.0,
+   "match_rel_err": 1.9904354269860988e-07
+  }
+ ],
+ "temp_start": "62250",
+ "temp_end": "62250",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

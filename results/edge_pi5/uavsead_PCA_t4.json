@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "uavsead",
+ "results": [
+  {
+   "method": "PCA",
+   "threads": 4,
+   "median_ms": 0.12777899974025786,
+   "p95_ms": 0.1313197673880495,
+   "mean_ms": 0.12838396242295858,
+   "max_rss_mb": 29.625,
+   "file_kb": 129.1,
+   "match_rel_err": 1.72212265163848e-07
+  }
+ ],
+ "temp_start": "64450",
+ "temp_end": "64450",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

@@ -1,0 +1,26 @@
+\begin{tabular}{lccccccc}
+\toprule
+ & ALFA & \multicolumn{3}{c}{RflyMAD-Real} & \multicolumn{3}{c}{UAV-SEAD} \\
+\cmidrule(lr){2-2}\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+Labels & 100\% & 5\% & 20\% & 100\% & 5\% & 20\% & 100\% \\
+\midrule
+\textit{Random} & 0.164 & 0.303 & 0.303 & 0.303 & 0.051 & 0.051 & 0.051 \\
+\midrule
+MovingVar & 0.269\,\scriptsize{$\pm$0.195} & 0.311\,\scriptsize{$\pm$0.014} & 0.311\,\scriptsize{$\pm$0.014} & 0.311\,\scriptsize{$\pm$0.014} & 0.124\,\scriptsize{$\pm$0.070} & 0.124\,\scriptsize{$\pm$0.070} & 0.124\,\scriptsize{$\pm$0.070} \\
+SqDiff & 0.175\,\scriptsize{$\pm$0.075} & 0.360\,\scriptsize{$\pm$0.010} & 0.360\,\scriptsize{$\pm$0.010} & 0.360\,\scriptsize{$\pm$0.010} & 0.081\,\scriptsize{$\pm$0.025} & 0.081\,\scriptsize{$\pm$0.025} & 0.081\,\scriptsize{$\pm$0.025} \\
+\midrule
+PCA & 0.356\,\scriptsize{$\pm$0.312} & 0.317\,\scriptsize{$\pm$0.015} & 0.317\,\scriptsize{$\pm$0.015} & 0.317\,\scriptsize{$\pm$0.015} & 0.157\,\scriptsize{$\pm$0.091} & 0.157\,\scriptsize{$\pm$0.091} & 0.157\,\scriptsize{$\pm$0.091} \\
+IForest & 0.284\,\scriptsize{$\pm$0.189} & 0.335\,\scriptsize{$\pm$0.019} & 0.335\,\scriptsize{$\pm$0.019} & 0.335\,\scriptsize{$\pm$0.019} & \textbf{0.161}\,\scriptsize{$\pm$0.082} & \textbf{0.161}\,\scriptsize{$\pm$0.082} & 0.161\,\scriptsize{$\pm$0.082} \\
+HBOS & 0.311\,\scriptsize{$\pm$0.202} & 0.372\,\scriptsize{$\pm$0.026} & 0.372\,\scriptsize{$\pm$0.026} & 0.372\,\scriptsize{$\pm$0.026} & 0.117\,\scriptsize{$\pm$0.053} & 0.117\,\scriptsize{$\pm$0.053} & 0.117\,\scriptsize{$\pm$0.053} \\
+USAD & 0.376\,\scriptsize{$\pm$0.246} & 0.311\,\scriptsize{$\pm$0.018} & 0.311\,\scriptsize{$\pm$0.018} & 0.311\,\scriptsize{$\pm$0.018} & 0.130\,\scriptsize{$\pm$0.056} & 0.130\,\scriptsize{$\pm$0.056} & 0.130\,\scriptsize{$\pm$0.056} \\
+FITS & 0.190\,\scriptsize{$\pm$0.108} & 0.363\,\scriptsize{$\pm$0.011} & 0.363\,\scriptsize{$\pm$0.011} & 0.363\,\scriptsize{$\pm$0.011} & 0.092\,\scriptsize{$\pm$0.036} & 0.092\,\scriptsize{$\pm$0.036} & 0.092\,\scriptsize{$\pm$0.036} \\
+\midrule
+TSPulse & 0.213\,\scriptsize{$\pm$0.119} & 0.329\,\scriptsize{$\pm$0.009} & 0.329\,\scriptsize{$\pm$0.009} & 0.329\,\scriptsize{$\pm$0.009} & 0.101\,\scriptsize{$\pm$0.038} & 0.101\,\scriptsize{$\pm$0.038} & 0.101\,\scriptsize{$\pm$0.038} \\
+\midrule
+LightGBM & 0.711\,\scriptsize{$\pm$0.119} & 0.711\,\scriptsize{$\pm$0.071} & \textbf{0.854}\,\scriptsize{$\pm$0.026} & \textbf{0.954}\,\scriptsize{$\pm$0.011} & 0.123\,\scriptsize{$\pm$0.079} & 0.127\,\scriptsize{$\pm$0.060} & \textbf{0.262}\,\scriptsize{$\pm$0.096} \\
+ExtraTrees & 0.664\,\scriptsize{$\pm$0.140} & \textbf{0.743}\,\scriptsize{$\pm$0.062} & 0.847\,\scriptsize{$\pm$0.028} & 0.930\,\scriptsize{$\pm$0.021} & 0.134\,\scriptsize{$\pm$0.064} & 0.132\,\scriptsize{$\pm$0.059} & 0.222\,\scriptsize{$\pm$0.024} \\
+CNN & 0.711\,\scriptsize{$\pm$0.133} & 0.607\,\scriptsize{$\pm$0.059} & 0.748\,\scriptsize{$\pm$0.026} & 0.843\,\scriptsize{$\pm$0.083} & 0.107\,\scriptsize{$\pm$0.060} & 0.086\,\scriptsize{$\pm$0.033} & 0.183\,\scriptsize{$\pm$0.041} \\
+TCN & \textbf{0.711}\,\scriptsize{$\pm$0.108} & 0.653\,\scriptsize{$\pm$0.076} & 0.807\,\scriptsize{$\pm$0.025} & 0.914\,\scriptsize{$\pm$0.015} & 0.117\,\scriptsize{$\pm$0.069} & 0.105\,\scriptsize{$\pm$0.044} & 0.193\,\scriptsize{$\pm$0.019} \\
+LSTM & 0.675\,\scriptsize{$\pm$0.120} & 0.633\,\scriptsize{$\pm$0.103} & 0.781\,\scriptsize{$\pm$0.036} & 0.912\,\scriptsize{$\pm$0.019} & 0.115\,\scriptsize{$\pm$0.052} & 0.112\,\scriptsize{$\pm$0.030} & 0.181\,\scriptsize{$\pm$0.006} \\
+\bottomrule
+\end{tabular}

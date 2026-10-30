@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "alfa",
+ "results": [
+  {
+   "method": "ExtraTrees",
+   "threads": 1,
+   "median_ms": 6.727264990331605,
+   "p95_ms": 6.960342086676974,
+   "mean_ms": 6.7655374872119864,
+   "max_rss_mb": 179.265625,
+   "file_kb": 28185.8,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "63350",
+ "temp_end": "65550",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

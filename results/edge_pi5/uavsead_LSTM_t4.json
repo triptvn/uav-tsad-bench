@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "uavsead",
+ "results": [
+  {
+   "method": "LSTM",
+   "threads": 4,
+   "median_ms": 0.15866899047978222,
+   "p95_ms": 0.16789006476756185,
+   "mean_ms": 0.1599610385892447,
+   "max_rss_mb": 58.25,
+   "file_kb": 111.4,
+   "match_rel_err": 3.457419550467371e-06
+  }
+ ],
+ "temp_start": "65000",
+ "temp_end": "68850",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "rflymad",
+ "results": [
+  {
+   "method": "PCA",
+   "threads": 1,
+   "median_ms": 0.12261199299246073,
+   "p95_ms": 0.12589186517288908,
+   "mean_ms": 0.12307603438966908,
+   "max_rss_mb": 29.140625,
+   "file_kb": 90.7,
+   "match_rel_err": 1.7502657778515152e-07
+  }
+ ],
+ "temp_start": "59500",
+ "temp_end": "57850",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

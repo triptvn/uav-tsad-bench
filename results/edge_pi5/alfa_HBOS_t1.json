@@ -1,0 +1,19 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "alfa",
+ "results": [
+  {
+   "method": "HBOS",
+   "threads": 1,
+   "median_ms": 0.6641189975198358,
+   "p95_ms": 0.6705819978378713,
+   "mean_ms": 0.6661469310347456,
+   "max_rss_mb": 29.65625,
+   "file_kb": 31.0,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "59500",
+ "temp_end": "62250"
+}

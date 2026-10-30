@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "alfa",
+ "results": [
+  {
+   "method": "IForest",
+   "threads": 1,
+   "median_ms": 4.065233995788731,
+   "p95_ms": 4.229187004966661,
+   "mean_ms": 4.090786500804825,
+   "max_rss_mb": 125.71875,
+   "file_kb": 1107.2,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "63900",
+ "temp_end": "65000",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

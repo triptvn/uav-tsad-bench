@@ -1,0 +1,22 @@
+\begin{tabular}{lrrrrr}
+\toprule
+Method & Params & Mean (ms) & p95 (ms) & RSS (MB) & Budget \\
+\midrule
+MovingVar & -- & 0.05 & 0.05 & 29 & 0.1\% \\
+SqDiff & -- & 0.03 & 0.03 & 29 & 0.0\% \\
+\midrule
+PCA & 23.1\,k & 0.12 & 0.13 & 29 & 0.1\% \\
+IForest & 24.2\,k & 4.12 & 4.19 & 125 & 4.1\% \\
+HBOS & 6.6\,k & 1.17 & 1.18 & 29 & 1.2\% \\
+USAD & 2.99\,M & 1.26 & 1.30 & 83 & 1.3\% \\
+FITS & 0.2\,k & 0.62 & 0.64 & 245 & 0.6\% \\
+\midrule
+TSPulse & 1.08\,M & 32.83 & 131.25 & 285 & 32.8\% \\
+\midrule
+LightGBM & 24.7\,k & 0.79 & 0.83 & 126 & 0.8\% \\
+ExtraTrees & 7.19\,M & 7.33 & 7.62 & 491 & 7.3\% \\
+CNN & 24.1\,k & 0.12 & 0.13 & 58 & 0.1\% \\
+TCN & 20.6\,k & 0.15 & 0.15 & 58 & 0.1\% \\
+LSTM & 26.9\,k & 0.17 & 0.18 & 58 & 0.2\% \\
+\bottomrule
+\end{tabular}

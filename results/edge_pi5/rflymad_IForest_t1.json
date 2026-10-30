@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "rflymad",
+ "results": [
+  {
+   "method": "IForest",
+   "threads": 1,
+   "median_ms": 4.079659003764391,
+   "p95_ms": 4.190203944745008,
+   "mean_ms": 4.123144547615084,
+   "max_rss_mb": 125.46875,
+   "file_kb": 986.5,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "59500",
+ "temp_end": "60050",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

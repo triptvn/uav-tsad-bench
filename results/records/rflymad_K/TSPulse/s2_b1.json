@@ -1,0 +1,52 @@
+{
+ "ds": "rflymad",
+ "chset": "K",
+ "method": "TSPulse",
+ "kind": "none",
+ "split": 2,
+ "budget": 1.0,
+ "window": 32,
+ "hz": 10,
+ "unsup_normal": false,
+ "tag": "",
+ "channels": [
+  "p",
+  "q",
+  "r",
+  "ax",
+  "ay",
+  "az",
+  "roll",
+  "pitch",
+  "yaw",
+  "vx",
+  "vy",
+  "vz"
+ ],
+ "n_channels": 12,
+ "n_train_flights": 292,
+ "n_train_labeled": 292,
+ "n_val_labeled": 98,
+ "n_test_flights": 98,
+ "n_test_points": 109425,
+ "test": {
+  "VUS-PR": 0.3093968117651417,
+  "VUS-ROC": 0.4884496885586433,
+  "AUC-PR": 0.2989525601053873,
+  "AUC-ROC": 0.4761809677297621,
+  "delay_med_s@fpr0.1": 24.9,
+  "miss_rate@fpr0.1": 0.9302325581395349,
+  "false_alarm_flights@fpr0.1": 0.8333333333333334,
+  "delay_med_s@fpr1": 10.0,
+  "miss_rate@fpr1": 0.3023255813953488,
+  "false_alarm_flights@fpr1": 1.0
+ },
+ "thr": {
+  "fpr0.1": 34.562992095947266,
+  "fpr1": 5.083682060241699
+ },
+ "fit_s": 0.68,
+ "score_us_per_point": 174.56,
+ "n_params": 1084330,
+ "hist": null
+}

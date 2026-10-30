@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "alfa",
+ "results": [
+  {
+   "method": "SqDiff",
+   "threads": 4,
+   "median_ms": 0.027667003450915217,
+   "p95_ms": 0.02807399141602218,
+   "mean_ms": 0.027730291927582584,
+   "max_rss_mb": 29.125,
+   "file_kb": 1.0,
+   "match_rel_err": 1.664778253196802e-07
+  }
+ ],
+ "temp_start": "61700",
+ "temp_end": "62250",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

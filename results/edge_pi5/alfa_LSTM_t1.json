@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "alfa",
+ "results": [
+  {
+   "method": "LSTM",
+   "threads": 1,
+   "median_ms": 0.16182599938474596,
+   "p95_ms": 0.17057975637726486,
+   "mean_ms": 0.16257198074890766,
+   "max_rss_mb": 57.75,
+   "file_kb": 90.4,
+   "match_rel_err": 7.053564060114218e-07
+  }
+ ],
+ "temp_start": "60600",
+ "temp_end": "61150",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

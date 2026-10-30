@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "alfa",
+ "results": [
+  {
+   "method": "FITS",
+   "threads": 4,
+   "median_ms": 0.6462945020757616,
+   "p95_ms": 0.6703058475977741,
+   "mean_ms": 0.6550001627765596,
+   "max_rss_mb": 244.71875,
+   "file_kb": 9.8,
+   "match_rel_err": 4.0113256915051706e-07
+  }
+ ],
+ "temp_start": "62800",
+ "temp_end": "66650",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

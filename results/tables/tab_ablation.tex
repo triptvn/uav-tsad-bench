@@ -1,0 +1,13 @@
+\begin{tabular}{llcc}
+\toprule
+Variant & Method & Variant & Main \\
+\midrule
+Channel set K (12 ch) vs F & LightGBM & 0.885 & 0.954 \\
+ & TCN & 0.831 & 0.914 \\
+Unsup. trained on normal segments & PCA & 0.474 & 0.317 \\
+ & USAD & 0.474 & 0.311 \\
+Window 16 / 64 vs 32 & LightGBM & 0.946 / 0.960 & 0.954 \\
+50 Hz vs 10 Hz (folds 0--1) & LightGBM & 0.959 & 0.956 \\
+ALFA with injection channels & TCN & 0.826 & 0.711 \\
+\bottomrule
+\end{tabular}

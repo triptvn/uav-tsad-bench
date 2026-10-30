@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "rflymad",
+ "results": [
+  {
+   "method": "LightGBM",
+   "threads": 4,
+   "median_ms": 0.8035380014916882,
+   "p95_ms": 0.8397917015827261,
+   "mean_ms": 0.8057130365777994,
+   "max_rss_mb": 125.046875,
+   "file_kb": 1441.3,
+   "match_rel_err": 0.011951348243818775
+  }
+ ],
+ "temp_start": "64450",
+ "temp_end": "68300",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

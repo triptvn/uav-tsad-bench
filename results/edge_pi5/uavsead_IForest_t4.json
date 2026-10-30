@@ -1,0 +1,21 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "uavsead",
+ "results": [
+  {
+   "method": "IForest",
+   "threads": 4,
+   "median_ms": 4.068753492902033,
+   "p95_ms": 4.2587889765854925,
+   "mean_ms": 4.1210710191953694,
+   "max_rss_mb": 125.546875,
+   "file_kb": 884.0,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "63900",
+ "temp_end": "64450",
+ "throttled_before": "0x0",
+ "throttled_after": "0x0"
+}

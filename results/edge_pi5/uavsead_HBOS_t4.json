@@ -1,0 +1,19 @@
+{
+ "machine": "aarch64",
+ "python": "3.13.5",
+ "ds": "uavsead",
+ "results": [
+  {
+   "method": "HBOS",
+   "threads": 4,
+   "median_ms": 1.2523299956228584,
+   "p95_ms": 1.2629049495444633,
+   "mean_ms": 1.253277649579104,
+   "max_rss_mb": 29.640625,
+   "file_kb": 61.2,
+   "match_rel_err": 0.0
+  }
+ ],
+ "temp_start": "62800",
+ "temp_end": "62250"
+}

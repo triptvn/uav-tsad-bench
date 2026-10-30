@@ -1,0 +1,13 @@
+data/
+edge/
+venv/
+__pycache__/
+*.pyc
+*.parquet
+*.ulg
+*.pt
+*.onnx
+*.joblib
+*.npz
+*.part
+results/records_rerun/
